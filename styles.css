@@ -1,0 +1,106 @@
+:root{
+    --primary-color:rgb(40, 168, 234);
+    --secondary-color:#232B2B;
+}
+
+body{
+    background: var(--secondary-color);
+    margin: 0;
+    padding: 0;  
+}
+
+#header{
+    background: var(--primary-color);
+    overflow: hidden;
+    text-align: center;
+    padding:0.5rem;
+    font-size: 20px;
+}
+
+
+/* Input cash div start  */
+
+.calculator{
+    max-width: 50%;
+    margin: auto;
+    text-align:center;
+}
+.make-inline{
+    display:inline-block;
+}
+.make-input-box-bigger-grey{
+    padding: 0.5rem 1rem;
+    background:lightgrey;
+}
+.calculator__bill-div__text{
+    margin-right: 1rem;
+    color: var(--primary-color);
+}
+.calculator__deposit-div__text{
+    margin-right: 1rem;
+    color: var(--primary-color);
+}
+
+/* Return div start  */
+
+.return{
+    margin: 2rem auto;
+    text-align: center;
+    background: var(--primary-color);
+}
+
+.return__amount{
+    color: black;
+    margin-right: 1rem;
+}
+.return__btn{
+    width: 150px;
+    height: 20px;
+    background: lightgrey;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1rem;
+    margin:auto;
+}
+.return__btn-text{
+    color: black;
+    font-size: 20px;
+
+}
+
+/* Cash Notes displat div Start  */
+.cash{
+    max-width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.cash__div-add-padding-bottom{
+    margin:0.5rem;
+}
+
+.cash__2000-div__button{
+    width: 200px;
+    height: 50px;
+    background: var(--primary-color);
+    opacity: 0.5;
+    border-radius:8px;
+    padding:10px;
+}
+.cash__2000-div__count{
+    width: 80px;
+    height: 50px;
+    border-radius: 8px;
+    background: var(--secondary-color);
+    opacity:0.5;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cash__2000-div__amount{
+    font-size: 30px;
+    color:white;
+    margin-left: 1rem;
+}

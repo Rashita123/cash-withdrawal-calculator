@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Calculator</title>
+    <link href="styles.css" rel="stylesheet"></link>
+</head>
+<body>
+    <header id="header">
+        <h1 class="header__text">Cash Calculator</h1>
+    </header>
+
+    <div class="calculator">
+        <div class="calculator__bill-div">
+            <h1 class="calculator__bill-div__text make-inline">Enter Bill Amount</h1>
+            <input class="calculator__bill-div__input make-inline make-input-box-bigger-grey" type="number" placeholder="Enter Bill amount">
+        </div>
+        
+        
+        <h1 style="color:red; display:none;" class="bill-alert">Enter a valid value of Bill!</h1>
+
+
+        <div style="display:none;" class="calculator__deposit-div deposit-display-js-controller">
+            <h1 class="calculator__deposit-div__text make-inline">Enter the Deposit</h1>
+            <input class="calculator__deposit-div__input make-inline make-input-box-bigger-grey" type="number" placeholder="Enter Deposit amount">
+        </div>
+        <h1 style="color:red; display:none;" class="deposit-alert">Enter a valid value of Deposit Amount!</h1>
+    </div>
+
+    
+
+    <div style="display:none;" class="return return-display-js-controller">
+        <h1 class="make-inline return__amount">Return Amount: </h1>
+        <div class="return__btn make-inline">
+            <div class="return__btn-text">0</div>
+        </div>
+    </div>
+    <h1 style="color:red; display:none;text-align: center;" class="return-negative-alert">Deposit cannot be less than Bill!</h1>
+
+
+    <div class="cash">
+        <div style="display:none;" class="cash__2000-div cash__div-add-padding-bottom make-inline   div-2000-display">
+            <div class="cash__2000-div__button">
+                <div class="cash__2000-div__count make-inline div-2000-count">24</div>
+                <div class="cash__2000-div__amount make-inline">₹2000</div>
+            </div>
+        </div>
+        <div style="display:none;" class="cash__500-div cash__div-add-padding-bottom make-inline    div-500-display">
+            <div class="cash__2000-div__button ">
+                <div class="cash__2000-div__count make-inline div-500-count">240</div>
+                <div class="cash__2000-div__amount make-inline">₹500</div>
+            </div>
+        </div>
+        <div style="display:none;" class="cash__100-div cash__div-add-padding-bottom make-inline    div-100-display">
+            <div class="cash__2000-div__button ">
+                <div class="cash__2000-div__count make-inline div-100-count" >240</div>
+                <div class="cash__2000-div__amount make-inline">₹100</div>
+            </div>
+        </div>
+        <div style="display:none;" class="cash__20-div cash__div-add-padding-bottom make-inline     div-20-display">
+            <div class="cash__2000-div__button">
+                <div class="cash__2000-div__count make-inline div-20-count">240</div>
+                <div class="cash__2000-div__amount make-inline">₹20</div>
+            </div>
+        </div>
+        <div style="display:none;" class="cash__10-div cash__div-add-padding-bottom make-inline     div-10-display">
+            <div class="cash__2000-div__button">
+                <div class="cash__2000-div__count make-inline div-10-count">240</div>
+                <div class="cash__2000-div__amount make-inline">₹10</div>
+            </div>
+        </div>
+        <div style="display:none;" class="cash__1-div cash__div-add-padding-bottom make-inline      div-1-display">
+            <div class="cash__2000-div__button">
+                <div class="cash__2000-div__count make-inline div-1-count">240</div>
+                <div class="cash__2000-div__amount make-inline">₹1</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/ap.js" type="text/javascript"></script>
+</body>
+</html>
